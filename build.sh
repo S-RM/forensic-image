@@ -31,7 +31,7 @@ echo "Complete!"
 
 echo "Downloading Android Studio"
 wget https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2021.2.1.15/android-studio-2021.2.1.15-linux.tar.gz -O /root/tools/Android-Studio.tar.gz
-tar -xvzf Android-Studio.tar.gz
+tar -xvzf /root/tools/Android-Studio.tar.gz
 echo "Complete!"
 
 echo "Build Script finished, preparing to be captured into golden image..."
